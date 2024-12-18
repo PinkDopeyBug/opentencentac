@@ -1,0 +1,365 @@
+footer .wei_container {
+  background-image: url('../img/author/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1800px;
+  height: 650px;
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  margin: 50px 0;
+}
+
+.wei_contact-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding: 0;
+}
+
+.wei_contact-item {
+  text-align: start;
+}
+
+.wei_contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 1800px;
+}
+
+.wei_contact-list li {
+  width: 333px;
+  height: 180px;
+}
+
+.wei_contact-item p {
+  margin: 5px 0;
+  color: #DFDFDF;
+}
+
+.wei_tip {
+  color: #7E7C7C;
+}
+
+.wei_banquan a {
+  color: #999999;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .wei_contain {
+  background-image: url('../img/author/bk.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 800px;
+  width: 1800px;
+}
+
+.wei_logo {
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 100px;
+}
+
+.wei_logo img {
+  height: 80px;
+  margin: 30px;
+  margin-right: 0;
+}
+
+.wei_logo a {
+  font-size: 20px;
+  height: 80px;
+  line-height: 85px;
+  display: inline-block;
+  color: #FFFFFF;
+  margin: 30px;
+  margin-left: 0;
+}
+
+.wei_content {
+  text-align: center;
+  height: 700px;
+}
+
+.wei_content .wei_title {
+  height: 200px;
+  margin-top: 200px;
+}
+
+.wei_content .wei_title a:nth-child(1) {
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.wei_content .wei_title a:nth-child(3) {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.wei_login {
+  height: 100px;
+}
+
+.wei_login a {
+  background-color: #FFFFFF;
+  display: inline-block;
+  height: 60px;
+  width: 160px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  margin: 0 30px;
+}
+
+.wei_login a i {
+  font-size: 28px;
+}
+
+.icon-QQ {
+  color: #12B7F6;
+}
+
+.icon-weixin {
+  color: #18C434;
+}
+
+article {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+article>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+article .wei_contain .wei_data {
+  display: flex;
+  justify-content: space-around;
+  width: 1400px;
+}
+
+article .wei_contain .wei_data span a {
+  font-size: 24px;
+  text-align: center;
+}
+
+article .wei_contain .wei_data span a strong {
+  color: #FE7D28;
+  font-size: 60px;
+}
+
+article .wei_contain .wei_info {
+  width: 1400px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+article .wei_contain .wei_info a {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  width: 1200px;
+}
+
+.wei_title h1 {
+  text-align: center;
+  color: #333333;
+  font-size: 40px;
+  width: 100%;
+}
+
+.wei_title div {
+  width: 100%;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.wei_title div a {
+  text-align: center;
+  display: inline-block;
+  width: 1000px;
+  font-size: 18px;
+  color: #666666;
+}
+
+.wei_ip-list {
+  padding: 0;
+  width: 1650px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.wei_ip-list li {
+  margin: 0;
+  padding: 0;
+  width: 330px;
+  height: 220px;
+}
+
+.wei_ip-list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.wei_ip-list li a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  transition: all 0.5s;
+}
+
+.wei_ip-list li a:hover {
+  cursor: pointer;
+}
+
+.wei_ip-list li a:hover::after {
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
+}
+
+.wei_ip-list li a img {
+  width: 100%;
+  height: 100%;
+}
+
+.wei_intro-info {
+  text-align: center;
+}
+
+.wei_intro-info a {
+  display: inline-block;
+  border: 3px solid #FF9A6A;
+  color: #FF9A6A;
+  font-size: 26px;
+  height: 60px;
+  width: 180px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50px;
+  margin-top: 60px;
+}
+
+/* 弹窗样式 */
+/* 22001030203魏宇帆 */
+.wei_popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wei_popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+}
+
+.wei_popup-left img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+
+.wei_popup .wei_popup-content {
+  position: relative;
+}
+
+.wei_popup .wei_close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #666666;
+}
+
+.wei_close-btn:hover,
+.wei_close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wei_popup-right h2 {
+  color: #666666;
+  font-size: 30px;
+  margin: 0;
+}
+
+.wei_popup-right p {
+  color: #666666;
+  font-size:20px;
+}
+
+.wei_popup-right{
+  margin:5px 30px;
+}
+
+#wei_popup-views{
+  font-size: 50px;
+  color: #FE7D28;
+  /* 加粗 */
+  /* 22001030203魏宇帆 */
+  font-weight: bold;
+}
+
+#wei_popup-followers{
+  color: #FE7D28;
+  font-size: 50px;
+  font-weight: bold;
+}

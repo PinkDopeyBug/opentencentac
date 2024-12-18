@@ -1,0 +1,377 @@
+ol {
+  list-style: none;
+}
+
+body{
+  background-color: #f6f6f6;
+}
+
+.wei_nav-table {
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #FDFDFC;
+}
+
+.wei_tencent-logo {
+  background-color: #FDFDFC;
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+}
+
+.wei_tencent-logo img {
+  width: 240px;
+  height: 80px;
+  margin: 5px 0;
+}
+
+.wei_nav-table {
+  height: 80px;
+}
+
+.wei_nav-left {
+  background-color: #FDFDFC;
+  display: inline-block;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.wei_nav-left li {
+  height: 70px;
+  padding: 0 20px;
+  line-height: 80px;
+
+}
+
+.wei_nav-left li a {
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 30px;
+  color: #333;
+}
+
+.wei_nav-left li:hover {
+  background-color: #FA9144;
+}
+
+.wei_nav-left li:hover a {
+  color: #FFFFFF;
+}
+
+article{
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.wei_container{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.wei_container-left{
+  width: 300px;
+  height: 500px;
+  border: 1px solid #606060;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 50px;
+  background-color: #FFFFFF;
+}
+
+.wei_container-left h2{
+  border-left: 6px solid #FF9A6A;
+  padding-left: 20px;
+  color: #666666;
+  margin: 0;
+}
+
+.wei_container-left .wei_check-all{
+  padding: 20px;
+  border-bottom: 1px dashed #606060;
+}
+
+.wei_attribute h3{
+  color:#666666;
+  padding-left: 20px;
+}
+
+.wei_attribute h3 i{
+  margin-right: 10px;
+}
+
+.wei_attribute ul{
+  height: 40px;
+  padding-left: 20px;
+  border-bottom: 1px dashed #606060;
+}
+
+.wei_attribute ul li{
+  margin: 0 5px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.wei_attribute ul li a{
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.wei_container-active{
+  background-color: #FF9A6A;
+  color: #FFFFFF;
+} 
+
+
+.wei_progress h3{
+  color:#666666;
+  padding-left: 20px;
+}
+
+.wei_progress h3 i{
+  margin-right: 10px;
+}
+
+.wei_progress ul{
+  height: 40px;
+  padding-left: 20px;
+  border-bottom: 1px dashed #606060;
+}
+
+.wei_progress ul li{
+  margin: 0 5px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.wei_progress ul li a{
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.wei_tag h3{
+  color:#666666;
+  padding-left: 20px;
+}
+
+.wei_tag h3 i{
+  margin-right: 10px;
+}
+
+.wei_tag ul{
+  height: 130px;
+  padding-left: 20px;
+  border-bottom: 1px dashed #606060;
+}
+
+.wei_tag ul li{
+  margin: 0 5px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.wei_tag ul li a{
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.wei_container-right{
+  width: 800px;
+  height: 1100px;
+  border: 1px solid #606060;
+  display: inline-block;
+  padding:0;
+  margin: 20px;
+  background-color: #FFFFFF;
+  margin-top: 50px;
+}
+
+
+.wei_container-title{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F3F3F3;
+  line-height: 50px;
+}
+
+.wei_title-left a{
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+}
+
+.wei_title-left a:hover{
+  cursor: pointer;
+}
+
+.wei_title-left a i{
+  display: inline-block;
+  height: 100%;
+  font-size: 24px;
+}
+
+.wei_title-left .wei_active{
+  background-color: #FFFFFF;
+  color: #FA9144;
+}
+
+.wei_title-right{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.wei_title-right ul{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wei_result{
+  margin-right: 30px;
+}
+
+.wei_title-right ul li{
+  margin:0 10px;
+}
+
+.wei_title-right ul li a:hover{
+  cursor: pointer;
+}
+
+
+.wei_title-right ul li .wei_active{
+  background-color: #FA9144;
+  color: #FFFFFF;
+}
+
+.wei_recommend-list {
+  width: 100%;
+  height: 1050px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin:0;
+  padding: 0;
+}
+
+.wei_bx-clone a{
+  width: 150px;
+  height: 200px;
+  text-align: center;
+  margin:10px;
+}
+
+.wei_bx-clone a img {
+  width: 150px;
+  height: 200px;
+  display: block;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.wei_bx-clone a img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.wei_bx-clone a img:hover::after {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wei_bx-clone a img:hover {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(249, 149, 41, 0.5);
+  transition: all 0.5s;
+  cursor: pointer;
+  border: 1px solid #F99529;
+  opacity: 0.8;
+}
+
+.wei_bx-clone {
+  padding:20px 0;
+  position: relative;
+  height: 220px;
+  width: 398px;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #F3F3F3;
+  text-align: center;
+}
+
+.wei_cover-updata {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  width: 150px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+.wei_cover-updata a {
+  color: rgb(224, 224, 224);
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.wei_cover-info{
+  margin: 10px 0;
+  height: 200px;
+  width: 244px;
+}
+
+.wei_cover-info h5{
+  color: #333;
+  margin: 0;
+  font-size: 18px;
+}
+
+.wei_cover-tag,.wei_cover-intro{
+  color: #333;
+}
+
+.wei_cover-info span{
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  border:1px solid #FF9A6A ;
+  background-color: #FFFBF6;
+  line-height: 40px;
+  text-align: center;
+}
+
+.wei_cover-info span:hover{
+  background-color: #FCF1E1;
+  cursor: pointer;
+}
+
+.wei_title-right .wei_pre:hover,.wei_title-right .wei_next:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #F6F6F6;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+article {
+  margin-left: 110px;
+}
+
+.icon-changxiaobang {
+  color: #FBE4BB;
+}
+
+.icon-shangsheng {
+  color: #FC8571;
+}
+
+.icon-xiajiang {
+  color: #0784D7;
+}
+
+.icon-hengxian1 {
+  color: #89B401;
+}
+
+footer {
+  margin-top: 100px;
+  height: 400px;
+  background-color: #F69057;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5; 
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.wei_mod-footer-main{
+  margin:20px 0;
+}
+
+.wei_mod-footer-scan{
+  padding: 0;
+}
+
+.wei_mod-footer-scan li{
+  margin: 30px;
+}
+
+.wei_mod-footer-scan li img{
+  width: 74px;
+  height: 74px;
+}
+
+.wei_mod-footer-supervision .wei_logo {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 4px;
+}
+
+.wei_mod-footer-supervision .wei_logo a img{
+  width: 32px;
+  height: 32px;
+}
+
+.wei_mod-footer-supervision{
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.wei_mod-footer-info a{
+  margin: 0 8px;
+}
+
+.wei_mod-footer-info span{
+  margin: 0 5px;
+}
+
+.wei_sign-books {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.wei_signbook {
+  width: 115px;
+  margin: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.wei_signbook:hover {
+  box-shadow: 0 0 10px rgba(255, 154, 106, 0.5);
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.wei_signbook a img {
+  width: 100%;
+}
+
+.wei_sign-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wei_signbook p {
+  width: 100%;
+  margin: 0;
+  margin-top: -4px;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

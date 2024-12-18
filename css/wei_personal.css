@@ -1,0 +1,318 @@
+.wei_nav-table {
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.wei_tencent-logo {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+}
+
+.wei_tencent-logo img {
+  width: 240px;
+  height: 80px;
+  margin: 5px 0;
+}
+
+.wei_nav-table {
+  height: 80px;
+}
+
+.wei_nav-left {
+  background-color: #FFFFFF;
+  display: inline-block;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.wei_nav-left li {
+  height: 60px;
+  padding: 0 20px;
+  line-height: 60px;
+
+}
+
+.wei_nav-left li a {
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 30px;
+  color: #333;
+}
+
+.wei_nav-left li:hover {
+  background-color: #FA9144;
+}
+
+.wei_nav-left li:hover a {
+  color: #FFFFFF;
+}
+
+footer {
+  background: none;
+  height: 100px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+article {
+  background-image: url("../img/personal/bg.jpg");
+  height: 1000px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.wei_person {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.wei_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 800px;
+}
+
+.wei_box-nav {
+  display: inline;
+}
+
+
+.wei_box-nav a {
+  height: 60px;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 6px;
+}
+
+.wei_box-nav a h1 {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+.wei_box-nav a:hover {
+  background-color: #8BD500;
+}
+
+.wei_box-nav a:hover h1 {
+  color: #333;
+}
+
+.wei_box-nav a:nth-child(1) {
+  background-color: #8BD500;
+}
+
+.wei_box-nav a:nth-child(1) h1 {
+  color: #333;
+}
+
+.wei_content-left {
+  background-color: #FFFFFF;
+  height: 250px;
+  width: 200px;
+}
+
+.wei_content-left ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 90%;
+  width: 90%;
+  padding: 10px;
+
+}
+
+.wei_content-left ul li {
+  border-bottom: 1px dotted #333;
+  height: 20%;
+  width: 100%;
+  line-height: 50px;
+}
+
+.wei_content-left ul li a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  color: #333;
+}
+
+.wei_content-left ul .wei_active{
+  color: #66CC00;
+  background-color: #EEFFD9;
+}
+
+.wei_content-left ul li a:hover {
+  background-color: #EEFFD9;
+  color: #66CC00;
+  cursor: pointer;
+}
+
+.wei_content-left ul li a i {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.wei_content-right {
+  background-color: #FFFFFF;
+  height: 750px;
+  width: 1000px;
+  margin-left: 20px;
+}
+
+.wei_box-content {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.wei_avatar {
+  display: inline-block;
+  height: 150px;
+  width: 120px;
+}
+
+.wei_avatar img {
+  height: 100px;
+  width: 100px;
+}
+
+.wei_personal-data {
+  border-bottom: 1px dashed #c4c4c4;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wei_personal-data .wei_data {
+  width: 790px;
+}
+
+.wei_personal-data .wei_data p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wei_personal-data .wei_data>a {
+  border-bottom: 1px dashed #c4c4c4;
+  display: block;
+  padding: 10px;
+  color: #333;
+}
+
+
+.wei_personal-data .wei_data p a {
+  color: #787878;
+  font-size: 12px;
+}
+
+.wei_personal-data .wei_data p a:nth-child(2):hover{
+  cursor: pointer;
+}
+
+.wei_personal-data .wei_data p a i {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.wei_personal-data .wei_data p:nth-child(1) a:nth-child(2) {
+  background-color: #FBE4BB;
+}
+
+.wei_books{
+  margin:0 50px;
+  padding: 0;
+}
+
+.wei_books .wei_book {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  line-height: 100px;
+  padding: 10px;
+  border-bottom: 1px dotted #333;
+}
+
+.wei_books .wei_book:hover{
+  background-color: #EEF1FB;
+}
+
+.wei_books .wei_book span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 100px;
+}
+
+.wei_books .wei_book span a {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+}
+
+.wei_books .wei_book .wei_title {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.wei_books .wei_book .wei_title a {
+  display: inline-block;
+  height: 20px;
+  margin: 10px;
+}
+
+.wei_books .wei_book .wei_title a:nth-child(1){
+  height: 100px;
+}
+
+.wei_books .wei_book .wei_title a img {
+  width: 60px;
+  height: 80px;
+}
+
+.wei_books .wei_book .wei_btn a{
+  margin: 5px;
+  width: 80px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #5875D3;
+  border-radius: 5px;
+  line-height: 40px;
+}
+
+.wei_books .wei_book .wei_btn a:nth-child(2){
+  opacity: 0;
+}
+
+.wei_books .wei_book .wei_btn a:nth-child(2):hover{
+  cursor: pointer;
+}
